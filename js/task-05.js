@@ -3,7 +3,8 @@ const spanRef = document.querySelector('#name-output');
 
 inputRef.addEventListener('input', onInput);
 
-function onInput(event){
-    inputRef.value !== ''?spanRef.textContent = inputRef.value:
+function onInput(){
+    inputRef.value.trim() !== ''?spanRef.textContent = inputRef.value:
     spanRef.textContent = 'Anonymous';
+    
 }
