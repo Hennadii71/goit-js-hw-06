@@ -30,4 +30,6 @@ button {
 
 .gallery{
  display: flex;
- gap: 8px;}
+ gap: 24px;
+ list-style: none;
+}
