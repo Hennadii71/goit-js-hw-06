@@ -13,7 +13,9 @@ function onFormLogin(event){
    console.log(objectInput);
 
   if(email.value === '' || password.value === ''){
-    alert('Please fill in all fields');
+    return alert('Please fill in all fields');
+
+     
 }
     
   event.currentTarget.reset();
